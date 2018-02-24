@@ -1,0 +1,22 @@
+Selenium IDE 下载及安装
+2017年03月23日 15:36:32
+#http://blog.csdn.net/echizen_520/article/details/64923019  历史火狐浏览器下载版本
+最近在学习Selenium，可是在安装Selenuim IDE的时候却遇到了小小的麻烦，查阅了很多资料之后，终于弄明白了整个安装过程，结果发现原来这么简单，之前走了好多弯路╮(╯﹏╰)╭，也算是学习道路上必经的过程吧~
+
+在安装Selenuim IDE之前，需要先安装Firefox，不过Firefox更新太快，一些插件并不能很好的兼容最新版的Firefox，所以有时候也需要安装旧版本的Firefox（作者用的是Firefox V52.0最新版，目前看来是兼容的），需要Firefox历史版本的请转至另一篇文章《火狐Firefox浏览器所有历史版本下载地址》
+
+安装好Firefox之后，接下来就到了正式安装Selenuim IDE的时候了。
+
+步骤一：下载Selenuim IDE
+      方法一：之前从网上查到很多安装教程，都是从http://seleniumhq.org/download/ 下载最新版的xpi文件，不知道是不是我的网络原因，打开的速度奇慢，也是心累到不行。
+
+      方法二：后来我发现直接用Firefox打开https://addons.mozilla.org/en-US/firefox/addon/selenium-ide/，点击”Add to Firefox”就可以了，如下所示：
+
+步骤二：Firefox的附加组件通知弹出了允许和禁止的选项，选择“安装”
+这里写图片描述
+
+步骤三：提示Selenuim IDE将在被重新启动Firefox时被安装，点击“立即重启”
+这里写图片描述
+
+       重新启动之后，Selenuim IDE就被安装好了，我们可以从菜单栏的 ‘工具’ >> ‘Selenium IDE’打开它，也可以直接从快速访问菜单栏访问，如下图所示。
+      这里写图片描述
